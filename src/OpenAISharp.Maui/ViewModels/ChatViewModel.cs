@@ -9,6 +9,7 @@ namespace OpenAISharp.Maui.ViewModels
 {
     public partial class ChatViewModel : ObservableObject
     {
+        // TODO: Allow to choose the chat model
         const string ChatModel = "gpt-3.5-turbo";
         const string ChatRole = "user";
 
@@ -68,6 +69,10 @@ namespace OpenAISharp.Maui.ViewModels
 
                     AddMessage(chatMessage.Role, chatMessage.Content);
                 }
+            }
+            catch
+            {
+                // TODO: Display Alert
             }
             finally
             {

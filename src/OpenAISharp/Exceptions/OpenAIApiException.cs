@@ -7,7 +7,7 @@ namespace OpenAISharp.Exceptions
         public HttpStatusCode StatusCode { get; protected set; }
         public string ResponseContent { get; protected set; }
 
-        public OpenAIApiException(HttpStatusCode statusCode, string responseContent)
+        public OpenAIApiException(HttpStatusCode statusCode, string responseContent) : base(responseContent)
         {
             StatusCode = statusCode;
             ResponseContent = responseContent;
