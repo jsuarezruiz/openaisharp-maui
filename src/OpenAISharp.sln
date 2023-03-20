@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAISharp", "OpenAISharp\OpenAISharp.csproj", "{5605CB67-4FD2-4022-AA16-BEEA7E8AB9C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAISharp.Maui", "OpenAISharp.Maui\OpenAISharp.Maui.csproj", "{1E7920E0-67CE-4CA1-80F9-D8B0943D3BED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5605CB67-4FD2-4022-AA16-BEEA7E8AB9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5605CB67-4FD2-4022-AA16-BEEA7E8AB9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5605CB67-4FD2-4022-AA16-BEEA7E8AB9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5605CB67-4FD2-4022-AA16-BEEA7E8AB9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7920E0-67CE-4CA1-80F9-D8B0943D3BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7920E0-67CE-4CA1-80F9-D8B0943D3BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7920E0-67CE-4CA1-80F9-D8B0943D3BED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E7920E0-67CE-4CA1-80F9-D8B0943D3BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7920E0-67CE-4CA1-80F9-D8B0943D3BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7920E0-67CE-4CA1-80F9-D8B0943D3BED}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {891D4363-5F26-434B-A4B9-F5779F47C518}
+	EndGlobalSection
+EndGlobal
